@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ondly — Privacy Policy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #1A1A2E; color: #FAF0E6cc; font-family: 'Inter', sans-serif; padding: 40px 20px; line-height: 1.7; }
+    .container { max-width: 800px; margin: 0 auto; }
+    h1 { font-family: 'Playfair Display', serif; color: #F5E6CA; font-size: 36px; margin-bottom: 8px; }
+    h2 { font-family: 'Playfair Display', serif; color: #D4A574; font-size: 22px; margin-top: 32px; margin-bottom: 12px; }
+    p { margin-bottom: 16px; font-size: 15px; }
+    ul { margin-left: 24px; margin-bottom: 16px; }
+    li { margin-bottom: 8px; font-size: 15px; }
+    .date { color: #D4A57480; font-size: 13px; margin-bottom: 32px; }
+    a { color: #E94560; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .back { display: inline-block; margin-bottom: 24px; color: #D4A574; font-size: 14px; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <a href="index.html" class="back">&larr; Torna alla home</a>
+
+  <h1>Privacy Policy</h1>
+  <p class="date">Ultimo aggiornamento: 21 marzo 2026</p>
+
+  <p>Ondly ("noi", "l'app") rispetta la tua privacy. Questa policy spiega quali dati raccogliamo, come li usiamo e i tuoi diritti.</p>
+
+  <h2>1. Dati che raccogliamo</h2>
+  <p>Quando usi Ondly, raccogliamo:</p>
+  <ul>
+    <li><strong>Dati del profilo Spotify:</strong> nome visualizzato, email, foto profilo, ID utente. Questi dati vengono forniti da Spotify tramite OAuth e sono necessari per il funzionamento dell'app.</li>
+    <li><strong>Dati di ascolto:</strong> la canzone attualmente in riproduzione su Spotify (titolo, artista, album). Utilizziamo questi dati per il matching in tempo reale con altri utenti.</li>
+    <li><strong>Dati del profilo Ondly:</strong> nome visualizzato, bio, posizione (se fornita volontariamente tramite geolocalizzazione).</li>
+    <li><strong>Contenuti creati:</strong> note del diario emozionale, messaggi chat, consigli di canzoni inviati ad altri utenti.</li>
+    <li><strong>Dati di utilizzo:</strong> tag emozionali associati alle canzoni, orari di ascolto, interazioni nell'app.</li>
+  </ul>
+
+  <h2>2. Come usiamo i tuoi dati</h2>
+  <ul>
+    <li><strong>Matching:</strong> i dati di ascolto vengono usati per trovare altri utenti che ascoltano la stessa canzone, lo stesso artista o provano la stessa emozione.</li>
+    <li><strong>Tag emozionali:</strong> analizziamo i metadati delle canzoni (genere artista, titolo, popolarità) per suggerire tag emozionali. Non analizziamo il contenuto audio.</li>
+    <li><strong>Profilo psicologico:</strong> le note del diario e i pattern di ascolto vengono analizzati localmente (sul tuo dispositivo) per generare il tuo profilo emotivo. Questi dati non vengono condivisi con terzi.</li>
+    <li><strong>Chat e consigli:</strong> i messaggi e i consigli di canzoni vengono trasmessi solo ai destinatari specificati.</li>
+  </ul>
+
+  <h2>3. Condivisione dei dati</h2>
+  <p>Non vendiamo i tuoi dati. Condividiamo dati solo in questi casi:</p>
+  <ul>
+    <li><strong>Altri utenti Ondly:</strong> il tuo nome visualizzato, foto profilo, canzone in ascolto e tag emozionali sono visibili agli altri utenti per il matching.</li>
+    <li><strong>Firebase (Google):</strong> utilizziamo Firebase come infrastruttura backend per autenticazione, database e messaggistica. I dati sono protetti secondo le <a href="https://firebase.google.com/support/privacy" target="_blank">policy di Firebase</a>.</li>
+    <li><strong>Spotify:</strong> comunichiamo con le API di Spotify per ottenere i dati di ascolto. Non inviamo i tuoi dati Ondly a Spotify.</li>
+  </ul>
+
+  <h2>4. Spotify e permessi</h2>
+  <p>Ondly richiede i seguenti permessi Spotify:</p>
+  <ul>
+    <li><strong>user-read-currently-playing:</strong> per rilevare la canzone in ascolto e abilitare il matching in tempo reale.</li>
+    <li><strong>user-read-playback-state:</strong> per verificare se stai attivamente ascoltando musica.</li>
+    <li><strong>user-read-email:</strong> per identificare il tuo account e creare il profilo Ondly.</li>
+    <li><strong>user-read-private:</strong> per accedere alle informazioni base del profilo Spotify (nome, paese).</li>
+    <li><strong>user-top-read:</strong> per personalizzare l'esperienza basandosi sui tuoi gusti musicali.</li>
+  </ul>
+  <p>Puoi revocare l'accesso di Ondly in qualsiasi momento dalle <a href="https://www.spotify.com/account/apps/" target="_blank">impostazioni del tuo account Spotify</a>.</p>
+
+  <h2>5. Sicurezza dei dati</h2>
+  <p>I tuoi dati sono protetti tramite:</p>
+  <ul>
+    <li>Autenticazione sicura tramite Firebase Auth e OAuth 2.0 di Spotify</li>
+    <li>Comunicazioni crittografate (HTTPS/TLS)</li>
+    <li>Regole di sicurezza Firestore che limitano l'accesso ai soli dati autorizzati</li>
+  </ul>
+
+  <h2>6. Conservazione dei dati</h2>
+  <p>Conserviamo i tuoi dati finché il tuo account è attivo. I dati di "now playing" vengono automaticamente rimossi dopo 2 minuti di inattività. Puoi richiedere la cancellazione completa dei tuoi dati contattandoci.</p>
+
+  <h2>7. I tuoi diritti</h2>
+  <p>Hai il diritto di:</p>
+  <ul>
+    <li>Accedere ai tuoi dati personali</li>
+    <li>Richiedere la correzione di dati inesatti</li>
+    <li>Richiedere la cancellazione dei tuoi dati</li>
+    <li>Revocare l'accesso Spotify in qualsiasi momento</li>
+    <li>Eliminare il tuo account Ondly</li>
+  </ul>
+
+  <h2>8. Minori</h2>
+  <p>Ondly non è destinato a minori di 16 anni. Non raccogliamo consapevolmente dati da minori.</p>
+
+  <h2>9. Modifiche alla policy</h2>
+  <p>Possiamo aggiornare questa privacy policy. In caso di modifiche significative, ti notificheremo tramite l'app.</p>
+
+  <h2>10. Contatti</h2>
+  <p>Per domande sulla privacy, contattaci a: <a href="mailto:vinylsignshop.help@gmail.com">vinylsignshop.help@gmail.com</a></p>
+</div>
+
+</body>
+</html>
